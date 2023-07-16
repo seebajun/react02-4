@@ -1,0 +1,26 @@
+.cardContainer{
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+
+.btnDetalle{
+    text-decoration: none;
+    color: white;
+}
+
+.btnDetalle2{
+    text-decoration: none;
+    color: black;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: space-evenly; 
+      transition: transform 0.2s ease;
+    
+}
+
+.buttonContainer:hover{
+    transform: scale(1.1);
+}

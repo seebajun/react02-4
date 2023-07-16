@@ -1,0 +1,35 @@
+li{
+    list-style: none;
+    margin: 5px;
+}
+
+.ButtonContainer{
+    display: flex;
+    transition: transform 0.2s ease;
+    
+}
+
+.ButtonContainer:hover{
+    transform: scale(1.1);
+}
+
+
+.CardContainer{
+    align-items: center;
+
+}
+
+.CardTitle{
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.inghover{
+    transition: transform 0.2s ease;
+    font-size: 20px;
+}
+
+.inghover:hover{
+    transform: scale(1.1);
+}

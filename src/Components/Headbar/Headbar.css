@@ -1,0 +1,11 @@
+.ContainerNav{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    transition: transform 0.2s ease;
+}
+
+.ContainerNav:hover {
+    color: yellow;
+    transform: scale(1.1);
+  }
